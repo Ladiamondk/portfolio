@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 600px) {
+    header {
+        background-color:  #D49E8D;
+        height: 55px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo a {
+        font-family: 'Great vibes', sans-serif;
+        margin-right: 30px;
+        font-size: 36px;
+        color: #683B2B;
+    }
+    nav a {
+        color: #683B2B;
+        font-size: 22px;
+        margin-right: 10px;
+        text-decoration: none;
+        font-family: 'Courgette', serif;
+    }
+    nav a:active {
+        color: antiquewhite;
+    }
+    body {
+        height: 100%;
+        background: linear-gradient(0deg,#FAF6F2, #DED1BD 70%) fixed no-repeat;
+    }
+    .name {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .name img {
+       display: none;
+    }
+    .title {
+        text-align: center;
+        margin-bottom: 10px;
+        flex-shrink: 2;
+    }
+    .title h1 {
+        font-family: 'Great vibes', sans-serif;
+        color: #683B2B;
+    }
+    .title h2 {
+        font-family: 'Courgette', serif;
+        color: #683B2B;
+    }
+    blockquote {
+        font-family: 'Playfair display', serif;
+    }
+    .work {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .work h2 {
+        font-family: 'Playfair display', serif;
+        font-weight: 400;
+        width: 100%;
+        margin-top: 10px;
+        line-height: 1;
+    }
+    .work ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .work li {
+        margin-top: 20px;
+    }
+    .aboutme{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+        height: 1000px;
+    }
+    .aboutme img {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 80px;
+        margin-right: 120px;
+        
+    }
+    .aboutme p {
+        height: 400px;
+        width: auto;
+        line-height: 1.2;
+        margin-right: none;
+        padding-bottom: 80px;
+        margin-left: 10px;
+    }
+    .goldrose {
+        display: none;
+    }
+    footer{
+        margin: none;
+    }
+} 
