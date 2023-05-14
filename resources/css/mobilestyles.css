@@ -22,8 +22,8 @@
     }
   
     .name {
-        margin-top: 40px;
-        margin-left: 40px;
+        margin-top: 50px;
+        margin-left: 45px;
         width: 100%;
       flex-direction: column;
       align-items: center;
@@ -48,7 +48,9 @@
       width: 80%;
       margin-bottom: 20px;
     }
-  
+    .work{
+        margin-top: -60px;
+    }
     .work ul {
     flex-direction: column;
       justify-content: center;
