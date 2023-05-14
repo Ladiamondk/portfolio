@@ -3,6 +3,7 @@
 @media (max-width: 767px) {
     header {
       height: 80px;
+      width: 100%;
       position: fixed;
       justify-content: center;
       border-bottom: 1px solid #683B2B;
@@ -21,7 +22,9 @@
     }
   
     .name {
-        margin: 40px 20px 0 50px;
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 100%;
       flex-direction: column;
       align-items: center;
       text-align: center;
@@ -53,8 +56,7 @@
   
     .work li {
       height: 180px;
-      
-      width: 80%;
+      width: 75%;
       margin-bottom: 20px;
     }
   
@@ -66,7 +68,7 @@
     .aboutme img {
       margin: 40px auto;
       height: auto;
-      width: 80%;
+      width: 73%;
       max-width: 400px;
     }
   
