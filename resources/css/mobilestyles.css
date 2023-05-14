@@ -80,8 +80,10 @@
       margin-top: 50px;
       width: 100%;
       flex-wrap: wrap;
+      flex-direction: column;
     }
-    .copy {
-        padding-right: 10px;
+    .goldrose{
+        height: 220px;
     }
+   
   }
