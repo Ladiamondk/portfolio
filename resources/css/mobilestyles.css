@@ -1,110 +1,62 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-@media screen and (max-width: 600px) {
-    header {
-        background-color:  #D49E8D;
-        height: 55px;
-        width: 600px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+/* Styles for mobile devices */
+@media (max-width: 767px) {
     .logo a {
-        font-family: 'Great vibes', sans-serif;
-        margin-right: 30px;
-        font-size: 36px;
-        color: #683B2B;
+      font-size: 36px;
     }
-    nav a {
-        color: #683B2B;
-        font-size: 22px;
-        margin-right: 10px;
-        text-decoration: none;
-        font-family: 'Courgette', serif;
-    }
-    nav a:active {
-        color: antiquewhite;
-    }
-    body {
-        height: 100%;
-        background: linear-gradient(0deg,#FAF6F2, #DED1BD 70%) fixed no-repeat;
-    }
+    
     .name {
-        display: flex;
-        align-items: center;
-        margin-top: 50px;
-        margin-left: 20px;
+      margin: 40px 20px 0 20px;
     }
+    
     .name img {
-       display: none;
+      height: 300px;
+      width: 300px;
     }
-    .title {
-        text-align: center;
-        margin-bottom: 10px;
-        flex-shrink: 2;
-    }
+    
     .title h1 {
-        font-family: 'Great vibes', sans-serif;
-        color: #683B2B;
+      font-size: 32px;
     }
+    
     .title h2 {
-        font-family: 'Courgette', serif;
-        color: #683B2B;
+      font-size: 24px;
     }
-    blockquote {
-        font-family: 'Playfair display', serif;
+    
+    .name blockquote {
+      width: 100%;
     }
-    .work {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .work h2 {
-        font-family: 'Playfair display', serif;
-        font-weight: 400;
-        width: 100%;
-        margin-top: 10px;
-        line-height: 1;
-    }
+    
     .work ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
     }
+    
     .work li {
-        margin-top: 20px;
+      height: auto;
+      width: 80%;
+      margin-bottom: 20px;
     }
-    .aboutme{
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-bottom: 30px;
-        height: 1000px;
+    
+    .aboutme {
+      flex-direction: column;
+      height: auto;
     }
+    
     .aboutme img {
-        width: 300px;
-        height: 400px;
-        margin-bottom: 80px;
-        margin-right: 120px;
-        
+      margin: 40px auto;
+      height: 300px;
+      width: 80%;
     }
+    
     .aboutme p {
-        height: 400px;
-        width: auto;
-        line-height: 1.2;
-        margin-right: none;
-        padding-bottom: 80px;
-        margin-left: 10px;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
     }
-    .goldrose {
-        display: none;
+    
+    footer {
+      margin-left: 10px;
+      margin-top: 50px;
+      width: 100%;
     }
-    footer{
-        margin: none;
-    }
-} 
+  }
+  
