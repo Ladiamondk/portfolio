@@ -137,7 +137,7 @@
     .name blockquote {
       width: 80%;
       margin-bottom: 20px;
-      flex-wrap: wrap;
+      flex-wrap: wrap !important;
     }
 
     .work{
@@ -149,8 +149,8 @@
     }
   
     .work li {
-      height: 180px;
-      width: 75%;
+      height: 100px;
+      width: 65%;
       margin-bottom: 20px;
     }
   
