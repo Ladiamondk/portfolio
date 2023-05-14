@@ -81,4 +81,7 @@
       width: 100%;
       flex-wrap: wrap;
     }
+    .goldrose {
+        padding-right: 120px;
+    }
   }
