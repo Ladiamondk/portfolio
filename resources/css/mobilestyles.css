@@ -137,6 +137,7 @@
     .name blockquote {
       width: 80%;
       margin-bottom: 20px;
+      flex-wrap: wrap;
     }
 
     .work{
