@@ -93,3 +93,95 @@
     }
    
   }
+
+  @media (min-width:767px) and (max-width: 1023px) {
+    header {
+      height: 80px;
+      width: 100%;
+      position: fixed;
+      justify-content: space-between;
+      border-bottom: 1px solid #683B2B;
+    }
+  
+  
+    .heading a {
+      font-size: 18px;
+      margin-right: 18px;
+    }
+    body {
+        width: 100%;
+    }
+  
+    .name {
+        margin-top: 90px;
+        margin-left: 35px;
+        width: 100%;
+      align-items: center;
+      text-align: center;
+   
+    }
+  
+    .name img {
+        width: 200px;
+        height: auto;
+    }
+  
+    .title h1 {
+      font-size: 28px;
+    }
+  
+    .title h2 {
+      font-size: 20px;
+    }
+  
+    .name blockquote {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+
+    .work{
+        margin-top: -60px;
+    }
+    .work ul {
+    flex-direction: column;
+      justify-content: center;
+    }
+  
+    .work li {
+      height: 180px;
+      width: 75%;
+      margin-bottom: 20px;
+    }
+  
+    .aboutme {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .aboutme img {
+      margin: 40px auto;
+      height: auto;
+      width: 73%;
+      max-width: 400px;
+    }
+  
+    .aboutme p {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    footer {
+      margin-left: 10px;
+      margin-top: 50px;
+      width: 100%;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .goldrose{
+        height: 220px;
+    }
+   
+  }
+
+  
