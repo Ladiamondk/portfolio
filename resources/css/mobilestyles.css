@@ -22,7 +22,7 @@
     }
     
     .name blockquote {
-      width: 100%;
+      width: 100%!important;
     }
     
     .work ul {
