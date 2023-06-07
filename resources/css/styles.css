@@ -116,10 +116,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-family: 'Courgette', sans-serif;
     font-size: 22px;
     font-style: italic;
     color: #683B2B;
+}
+.work img {
+    height: 370px;
+    width: 350px;
 }
 
 .work li:hover {
