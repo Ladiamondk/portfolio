@@ -4,8 +4,8 @@
     padding: 0;
 }
 header {
-    background-color: #D49E8D;
-    height: 55px;
+    background-color: #ffdcd1;
+    height: 60px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -40,12 +40,12 @@ header a:hover {
 
 body {
     background-color: #DED1BD;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(0deg,#FAF6F2, #DED1BD 70%) no-repeat;
+    background: linear-gradient(0deg,#DED1BD,  #FAF6F2 70%) no-repeat;
 }
 
 .name {
@@ -55,19 +55,17 @@ body {
     justify-content: space-between;
 }
 .name img{
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
 }
 
 .title {
-    margin-bottom: 70px;
+    margin: 60px 80px 0px 30px;
     display: flex;
     flex-direction: column;
     line-height: 1.5;
     align-items: center;
     color: #683B2B;
-    margin-top: 60px;
-    margin-right: 80px;
 }
 .title h1{
     font-size: 54px;
@@ -76,6 +74,7 @@ body {
 .title h2{
     font-size: 36px;
     font-family: 'Courgette', sans-serif;
+    text-align: center;
 }
 .name blockquote {
     font-size: 22px;
@@ -98,6 +97,7 @@ body {
     padding: 2em;
     line-height: 1.5;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .work ul {
